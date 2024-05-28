@@ -6384,7 +6384,8 @@ a.close.disabled {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #808080; /* Màu xám cho chữ số không hoạt động */
+  color: #fff; /* Màu trắng cho chữ số */
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -6399,7 +6400,7 @@ a.close.disabled {
 }
 
 .carousel-indicators .active {
-  opacity: 1;
+  background-color: #000; /* Màu đen cho chỉ số đang hoạt động */
 }
 
 .carousel-caption {
